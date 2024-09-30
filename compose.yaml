@@ -1,7 +1,7 @@
 services:
   db:
-    image: postgres
-    container_name: postgres-db
+    image: alexandrias-db
+    container_name: alexandrias-db
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
